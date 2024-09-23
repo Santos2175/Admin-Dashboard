@@ -8,6 +8,7 @@ import {
   Settings,
 } from 'lucide-react';
 
+//for navbar
 export const SIDEBAR_ITEMS = [
   { name: 'Overview', icon: BarChart2, color: '#6366f1', href: '/' },
   { name: 'Products', icon: ShoppingBag, color: '#8B5CF6', href: '/products' },
@@ -18,6 +19,7 @@ export const SIDEBAR_ITEMS = [
   { name: 'Settings', icon: Settings, color: '#6EE7B7', href: '/settings' },
 ];
 
+//sales overview chart
 export const salesData = [
   { name: 'Jul', sales: 4200 },
   { name: 'Aug', sales: 3800 },
@@ -32,3 +34,14 @@ export const salesData = [
   { name: 'May', sales: 7100 },
   { name: 'Jun', sales: 7500 },
 ];
+
+//category distribution chart
+export const categoryData = [
+  { name: 'Electronics', value: 4500 },
+  { name: 'Clothing', value: 3200 },
+  { name: 'Home & Garden', value: 2800 },
+  { name: 'Books', value: 2100 },
+  { name: 'Sports & Outdoors', value: 1900 },
+];
+
+export const COLORS = ['#6366F1', '#8B5CF6', '#EC4899', '#10B981', '#F59E0B'];
