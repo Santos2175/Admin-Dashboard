@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { categoryData, COLORS } from '../../data/data.js';
+import { categoryData, CATEGORY_COLORS } from '../../data/data.js';
 import {
   ResponsiveContainer,
   PieChart,
@@ -47,7 +47,7 @@ const CategoryDistributionChart = () => {
               {categoryData.map((entry, index) => (
                 <Cell
                   key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
+                  fill={CATEGORY_COLORS[index % CATEGORY_COLORS.length]}
                   onMouseEnter={() => handleMouseEnter(index)}
                   onMouseLeave={handleMouseLeave}
                   style={{
