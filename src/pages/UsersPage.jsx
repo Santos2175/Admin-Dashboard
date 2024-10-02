@@ -8,6 +8,7 @@ import UsersTable from '../components/users/UsersTable.jsx';
 
 import { userStats } from '../data/data.js';
 import UserGrowthChart from '../components/users/UserGrowthChart.jsx';
+import UserAcitivityHeatmap from '../components/users/UserAcitivityHeatmap.jsx';
 
 const UsersPage = () => {
   return (
@@ -49,8 +50,9 @@ const UsersPage = () => {
 
         <UsersTable />
 
-        <div className='grid grid-cols-1 lg:grid-cols-2'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
           <UserGrowthChart />
+          <UserAcitivityHeatmap />
         </div>
       </main>
     </div>
