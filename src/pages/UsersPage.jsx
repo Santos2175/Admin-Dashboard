@@ -7,6 +7,7 @@ import StatCard from '../components/common/StatCard.jsx';
 import UsersTable from '../components/users/UsersTable.jsx';
 
 import { userStats } from '../data/data.js';
+import UserGrowthChart from '../components/users/UserGrowthChart.jsx';
 
 const UsersPage = () => {
   return (
@@ -47,6 +48,10 @@ const UsersPage = () => {
         </motion.div>
 
         <UsersTable />
+
+        <div className='grid grid-cols-1 lg:grid-cols-2'>
+          <UserGrowthChart />
+        </div>
       </main>
     </div>
   );
