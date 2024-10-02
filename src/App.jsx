@@ -8,7 +8,6 @@ import SalesPage from './pages/SalesPage.jsx';
 import Sidebar from './components/common/Sidebar.jsx';
 
 import './App.css';
-import SalesPage from './pages/SalesPage.jsx';
 
 function App() {
   return (
