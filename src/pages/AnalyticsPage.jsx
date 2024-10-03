@@ -3,6 +3,7 @@ import Header from '../components/common/Header.jsx';
 
 import OverviewCards from '../components/analytics/OverviewCards.jsx';
 import RevenueChart from '../components/analytics/RevenueChart.jsx';
+import ChannelPerformance from '../components/analytics/ChannelPerformance.jsx';
 
 const AnalyticsPage = () => {
   return (
@@ -12,6 +13,10 @@ const AnalyticsPage = () => {
       <main className='max-w-7xl px-6 py-4 mx-auto lg:px-8'>
         <OverviewCards />
         <RevenueChart />
+
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8'>
+          <ChannelPerformance />
+        </div>
       </main>
     </div>
   );
