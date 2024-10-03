@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import Header from '../components/common/Header';
-import StatCard from '../components/common/StatCard';
+import Header from '../components/common/Header.jsx';
+import StatCard from '../components/common/StatCard.jsx';
 
 import { ShoppingBag, CheckCircle, Clock, DollarSign } from 'lucide-react';
 import DailyOrders from '../components/orders/DailyOrders.jsx';
