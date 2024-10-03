@@ -5,6 +5,7 @@ import StatCard from '../components/common/StatCard';
 import { ShoppingBag, CheckCircle, Clock, DollarSign } from 'lucide-react';
 import DailyOrders from '../components/orders/DailyOrders.jsx';
 import OrderDistribution from '../components/orders/OrderDistribution.jsx';
+import OrdersTable from '../components/orders/OrdersTable.jsx';
 
 const orderStats = {
   totalOrders: '1,234',
@@ -54,6 +55,7 @@ const OrdersPage = () => {
           <DailyOrders />
           <OrderDistribution />
         </div>
+        <OrdersTable />
       </main>
     </div>
   );
