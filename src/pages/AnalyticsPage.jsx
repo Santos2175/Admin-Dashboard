@@ -6,6 +6,7 @@ import RevenueChart from '../components/analytics/RevenueChart.jsx';
 import ChannelPerformance from '../components/analytics/ChannelPerformance.jsx';
 import ProductPerformance from '../components/analytics/ProductPerformance.jsx';
 import UserRetention from '../components/analytics/UserRetention.jsx';
+import CustomerSegmentation from '../components/analytics/CustomerSegmentation.jsx';
 
 const AnalyticsPage = () => {
   return (
@@ -20,6 +21,7 @@ const AnalyticsPage = () => {
           <ChannelPerformance />
           <ProductPerformance />
           <UserRetention />
+          <CustomerSegmentation />
         </div>
       </main>
     </div>
