@@ -4,6 +4,8 @@ import Header from '../components/common/Header.jsx';
 import OverviewCards from '../components/analytics/OverviewCards.jsx';
 import RevenueChart from '../components/analytics/RevenueChart.jsx';
 import ChannelPerformance from '../components/analytics/ChannelPerformance.jsx';
+import ProductPerformance from '../components/analytics/ProductPerformance.jsx';
+import UserRetention from '../components/analytics/UserRetention.jsx';
 
 const AnalyticsPage = () => {
   return (
@@ -16,6 +18,8 @@ const AnalyticsPage = () => {
 
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8'>
           <ChannelPerformance />
+          <ProductPerformance />
+          <UserRetention />
         </div>
       </main>
     </div>
