@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Header from '../components/common/Header.jsx';
 
 import OverviewCards from '../components/analytics/OverviewCards.jsx';
+import RevenueChart from '../components/analytics/RevenueChart.jsx';
 
 const AnalyticsPage = () => {
   return (
@@ -10,6 +11,7 @@ const AnalyticsPage = () => {
 
       <main className='max-w-7xl px-6 py-4 mx-auto lg:px-8'>
         <OverviewCards />
+        <RevenueChart />
       </main>
     </div>
   );
