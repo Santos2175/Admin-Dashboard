@@ -70,9 +70,9 @@ const ProductsTable = () => {
                 transition={{ duration: 0.3 }}>
                 <td className='px-6 py-4 text-sm whitespace-nowrap font-medium text-gray-100 gap-2 flex items-center'>
                   <img
-                    src='https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2lyZWxlc3MlMjBlYXJidWRzfGVufDB8fDB8fHww'
+                    src={product.img}
                     alt='Product img'
-                    className='size-10 rounded-full'
+                    className='size-10 rounded-full bg-transparent object-cover'
                   />
                   {product.name}
                 </td>
